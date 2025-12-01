@@ -47,7 +47,7 @@ https://floridathunderfc.netlify.app
  
  ```
  ---
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 - Gabriel Cristino
 - 📍 Fortaleza, Ceará — Brasil
