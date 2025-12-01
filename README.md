@@ -49,10 +49,10 @@ https://floridathunderfc.netlify.app
  ---
 ##👨‍💻 Autor
 
--Gabriel Cristino
--📍 Fortaleza, Ceará — Brasil
--📧 Email: gabriel.oficial.cristino@gmail.com
--🔗 LinkedIn: linkedin.com/in/gabrielcristino1
--🐙 GitHub: github.com/gban01
+- Gabriel Cristino
+- 📍 Fortaleza, Ceará — Brasil
+- 📧 Email: gabriel.oficial.cristino@gmail.com
+- 🔗 LinkedIn: linkedin.com/in/gabrielcristino1
+- 🐙 GitHub: github.com/gban01
 
--<div align="center"> <sub>Desenvolvido com 💙 e ⚡ por Gabriel Cristino</sub> </div> 
+<div align="center"> <sub>Desenvolvido com 💙 e ⚡ por Gabriel Cristino</sub> </div> 
