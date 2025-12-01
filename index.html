@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florida Thunder FC - Rugimos na Tempestade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-wrapper">
+                    <img src="/img/logo.png" alt="Florida Thunder FC Logo" class="logo">
+                    <span class="logo-text">Florida Thunder FC</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#historia" class="nav-link">História</a>
+                    <a href="#elenco" class="nav-link">Elenco</a>
+                    <a href="#titulos" class="nav-link">Títulos</a>
+                    <a href="#estadio" class="nav-link">Estádio</a>
+                    <a href="#galeria" class="nav-link">Galeria</a>
+                    <a href="#noticias" class="nav-link">Notícias</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </nav>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1629217855633-79a6925d6c47" alt="Stadium Background"
+                class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <img src="/img/logo.png" alt="Florida Thunder FC" class="hero-logo">
+            </div>
+            <h1 class="hero-title">Florida Thunder FC</h1>
+            <p class="hero-subtitle">"Rugimos na Tempestade"</p>
+            <div class="hero-info">
+                <div class="info-item">
+                    <span class="info-label">Fundado em</span>
+                    <span class="info-value">15.03.1998</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Cidade</span>
+                    <span class="info-value">Tampa, FL</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Estádio</span>
+                    <span class="info-value">Storm Arena</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#elenco" class="btn btn-primary">Ver Elenco</a>
+                <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- História Section -->
+    <section id="historia" class="historia section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa História</h2>
+                <p class="section-subtitle">Mais de 27 anos de paixão pelo futebol</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-year">1998 – 2003</div>
+                    <div class="timeline-content">
+                        <h3>Fundação e Primeiros Passos</h3>
+                        <p>O Florida Thunder FC foi fundado em 15 de março de 1998 por um grupo de empresários e
+                            ex-atletas da região de Tampa. Nos primeiros anos, o clube disputou ligas amadoras e
+                            regionais. A identidade "Thunder" veio das tempestades tropicais da Flórida, famosas na
+                            região. A torcida adotou rapidamente o mascote: um leão azul com crina em formato de raio.
+                        </p>
+                        <img src="/img/Comemorando.png" alt="Team Foundation" class="timeline-img">
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-year">2004 – 2010</div>
+                    <div class="timeline-content">
+                        <h3>Profissionalização</h3>
+                        <p>O clube entrou oficialmente na liga profissional equivalente à atual USL Championship (2ª
+                            divisão dos EUA). O primeiro grande momento foi em 2007, quando chegou às semifinais após
+                            eliminar times mais tradicionais.</p>
+                        <img src="/img/torcedorees.png" alt="Professionalization Era" class="timeline-img">
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-year">2011 – 2018</div>
+                    <div class="timeline-content">
+                        <h3>Consolidação</h3>
+                        <p>O Florida Thunder se tornou conhecido por revelar jovens talentos norte-americanos e latinos.
+                            Comissões técnicas do Brasil e do México passaram pelo clube, deixando a equipe com um
+                            estilo de jogo ofensivo e técnico.</p>
+                        <img src="https://images.unsplash.com/photo-1551390415-0de411440ca3" alt="Consolidation Phase"
+                            class="timeline-img">
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-year">2019 – Hoje</div>
+                    <div class="timeline-content">
+                        <h3>Nova Era</h3>
+                        <p>Em 2019, o clube passou por uma reestruturação completa, ganhou novos investidores e
+                            modernizou o Storm Arena. Desde então, o Thunder briga quase todos os anos pelo acesso à
+                            MLS, mas ainda permanece na segunda divisão, sendo considerado um dos times mais estáveis e
+                            competitivos da liga.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elenco Section -->
+    <section id="elenco" class="elenco section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Elenco 2025</h2>
+                <p class="section-subtitle">Conheça nossos jogadores</p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="goleiros">Goleiros</button>
+                <button class="filter-btn" data-filter="defensores">Defensores</button>
+                <button class="filter-btn" data-filter="meio-campo">Meio-Campo</button>
+                <button class="filter-btn" data-filter="atacantes">Atacantes</button>
+                <button class="filter-btn" data-filter="comissao">Comissão Técnica</button>
+            </div>
+
+            <!-- Goleiros -->
+            <div class="players-category" data-category="goleiros">
+                <h3 class="category-title">Goleiros</h3>
+                <div class="players-grid">
+                    <div class="player-card highlight">
+                        <div class="player-number">1</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Daniel "Danny" Collins</h4>
+                            <p class="player-position">Goleiro</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">12</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Rafael Monteiro</h4>
+                            <p class="player-position">Goleiro</p>
+                            <p class="player-country">🇧🇷 Brasil</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">30</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Ken Harris</h4>
+                            <p class="player-position">Goleiro</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Defensores -->
+            <div class="players-category" data-category="defensores">
+                <h3 class="category-title">Defensores</h3>
+                <div class="players-grid">
+                    <div class="player-card">
+                        <div class="player-number">4</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Miguel Ferraz</h4>
+                            <p class="player-position">Zagueiro</p>
+                            <p class="player-country">🇵🇹 Portugal</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">3</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Andrew Thompson</h4>
+                            <p class="player-position">Zagueiro</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">15</div>
+                        <div class="player-info">
+                            <h4 class="player-name">José Ramírez</h4>
+                            <p class="player-position">Zagueiro</p>
+                            <p class="player-country">🇲🇽 México</p>
+                        </div>
+                    </div>
+                    <div class="player-card ">
+                        <div class="player-number">23</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Kyle Jefferson</h4>
+                            <p class="player-position">Zagueiro</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">2</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Jordan Blake</h4>
+                            <p class="player-position">Lateral Direito</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">26</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Felipe "Lipe" Duarte</h4>
+                            <p class="player-position">Lateral Direito</p>
+                            <p class="player-country">🇧🇷 Brasil</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">6</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Omar Castillo</h4>
+                            <p class="player-position">Lateral Esquerdo</p>
+                            <p class="player-country">🇨🇴 Colômbia</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">18</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Lucas Harter</h4>
+                            <p class="player-position">Lateral Esquerdo</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meio-Campo -->
+            <div class="players-category" data-category="meio-campo">
+                <h3 class="category-title">Meio-Campo</h3>
+                <div class="players-grid">
+                    <div class="player-card">
+                        <div class="player-number">5</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Victor Salgado</h4>
+                            <p class="player-position">Volante</p>
+                            <p class="player-country">🇧🇷 Brasil</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">14</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Kevin Moore</h4>
+                            <p class="player-position">Volante</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">8</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Alejandro Torres</h4>
+                            <p class="player-position">Meia Central</p>
+                            <p class="player-country">🇦🇷 Argentina</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">19</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Mason Carter</h4>
+                            <p class="player-position">Meia Central</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">20</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Benicio Farías</h4>
+                            <p class="player-position">Meia Central</p>
+                            <p class="player-country">🇦🇷 Argentina</p>
+                        </div>
+                    </div>
+                    <div class="player-card highlight">
+                        <div class="player-number">10</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Marco "Marquinhos" Paiva</h4>
+                            <p class="player-position">Meia Ofensivo - Camisa 10</p>
+                            <p class="player-country">🇧🇷 Brasil</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">25</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Samuel Reed</h4>
+                            <p class="player-position">Meia Ofensivo</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Atacantes -->
+            <div class="players-category" data-category="atacantes">
+                <h3 class="category-title">Atacantes</h3>
+                <div class="players-grid">
+                    <div class="player-card">
+                        <div class="player-number">7</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Chris Wallace</h4>
+                            <p class="player-position">Ponta Direita</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">21</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Thiaguinho Santos</h4>
+                            <p class="player-position">Ponta Direita</p>
+                            <p class="player-country">🇧🇷 Brasil</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">11</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Diego Valverde</h4>
+                            <p class="player-position">Ponta Esquerda</p>
+                            <p class="player-country">🇵🇪 Peru</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">27</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Gabriel Cristino</h4>
+                            <p class="player-position">Ponta Esquerda</p>
+                            <p class="player-country">🇧🇷 Brasil</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">17</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Julian Price</h4>
+                            <p class="player-position">Ponta Esquerda</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                    <div class="player-card highlight">
+                        <div class="player-number">9</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Hector Villalba</h4>
+                            <p class="player-position">Centroavante</p>
+                            <p class="player-country">🇵🇾 Paraguai</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-number">32</div>
+                        <div class="player-info">
+                            <h4 class="player-name">Derek Wilson</h4>
+                            <p class="player-position">Centroavante</p>
+                            <p class="player-country">🇺🇸 EUA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comissão Técnica -->
+            <div class="players-category" data-category="comissao">
+                <h3 class="category-title">Comissão Técnica</h3>
+                <div class="staff-grid">
+                    <div class="staff-card">
+                        <h4 class="staff-name">Maurício Lacerda</h4>
+                        <p class="staff-role">Técnico Principal</p>
+                        <p class="staff-country">🇧🇷 Brasil</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Jonathan Pierce</h4>
+                        <p class="staff-role">Auxiliar Técnico</p>
+                        <p class="staff-country">🇺🇸 EUA</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Pablo Cárdenas</h4>
+                        <p class="staff-role">Preparador Físico</p>
+                        <p class="staff-country">🇨🇱 Chile</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Lucas Montalban</h4>
+                        <p class="staff-role">Prep. de Goleiros</p>
+                        <p class="staff-country">🇵🇹 Portugal</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Emily Rhodes</h4>
+                        <p class="staff-role">Analista de Desempenho</p>
+                        <p class="staff-country">🇺🇸 EUA</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Dr. Stanley Brooks</h4>
+                        <p class="staff-role">Médico do Clube</p>
+                        <p class="staff-country">🇺🇸 EUA</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Ricardo Altamirano</h4>
+                        <p class="staff-role">Fisioterapeuta</p>
+                        <p class="staff-country">🇦🇷 Argentina</p>
+                    </div>
+                    <div class="staff-card">
+                        <h4 class="staff-name">Mike Houston</h4>
+                        <p class="staff-role">Coordenador da Base</p>
+                        <p class="staff-country">🇺🇸 EUA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Títulos Section -->
+    <section id="titulos" class="titulos section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Títulos</h2>
+                <p class="section-subtitle">Conquistas ao longo da história</p>
+            </div>
+            <div class="trophies-grid">
+                <div class="trophy-card" data-aos="fade-up">
+                    <div class="trophy-icon">🏆</div>
+                    <h3 class="trophy-title">USL Regional Cup</h3>
+                    <p class="trophy-years">2010, 2016, 2022</p>
+                    <span class="trophy-count">3x Campeão</span>
+                </div>
+                <div class="trophy-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trophy-icon">🏅</div>
+                    <h3 class="trophy-title">Copa da Flórida</h3>
+                    <p class="trophy-years">2013, 2014, 2018, 2021</p>
+                    <span class="trophy-count">4x Campeão</span>
+                </div>
+                <div class="trophy-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trophy-icon">🥈</div>
+                    <h3 class="trophy-title">Vice-Campeão USL Championship</h3>
+                    <p class="trophy-years">2007, 2019</p>
+                    <span class="trophy-count">2x Vice-Campeão</span>
+                </div>
+                <div class="trophy-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trophy-icon">🥉</div>
+                    <h3 class="trophy-title">Melhor Ataque da Liga</h3>
+                    <p class="trophy-years">2021 - 68 gols</p>
+                    <span class="trophy-count">Recorde Histórico</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estádio Section -->
+    <section id="estadio" class="estadio section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Storm Arena</h2>
+                <p class="section-subtitle">Nossa casa desde 2003</p>
+            </div>
+            <div class="stadium-content">
+                <div class="stadium-image">
+                    <img src="/img/estadio.png" alt="Storm Arena" class="stadium-img">
+                </div>
+                <div class="stadium-info">
+                    <div class="stadium-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">22.500</span>
+                            <span class="stat-label">Capacidade</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">2003</span>
+                            <span class="stat-label">Inauguração</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">Tampa</span>
+                            <span class="stat-label">Localização</span>
+                        </div>
+                    </div>
+                    <div class="stadium-features">
+                        <h3>Características</h3>
+                        <ul class="features-list">
+                            <li>Arquibancadas com estrutura moderna inspirada em estádios europeus</li>
+                            <li>Telões panorâmicos de última geração</li>
+                            <li>Iluminação azul e dourada que simula um "raio" na entrada do time</li>
+                            <li>Museu interno contando a história do clube</li>
+                            <li>Localização privilegiada na região costeira de Tampa, próxima ao bairro Channelside</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="galeria section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeria</h2>
+                <p class="section-subtitle">Momentos memoráveis do Thunder</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <img src="https://images.unsplash.com/photo-1629977009896-44a567a0543c" alt="Soccer Action 1">
+                    <div class="gallery-overlay">
+                        <p>Ação em Campo</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1761225092045-698d1c4a9f43" alt="Soccer Action 2">
+                    <div class="gallery-overlay">
+                        <p>Treinamento</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="/img/Comemorando.png" alt="Team Celebration">
+                    <div class="gallery-overlay">
+                        <p>Comemoração</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1551390415-0de411440ca3" alt="Victory">
+                    <div class="gallery-overlay">
+                        <p>Vitória</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9" alt="Stadium View">
+                    <div class="gallery-overlay">
+                        <p>Storm Arena</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="/img/torcedorees.png" alt="Fans">
+                    <div class="gallery-overlay">
+                        <p>Torcida Thunder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notícias Section -->
+    <section id="noticias" class="noticias section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Últimas Notícias</h2>
+                <p class="section-subtitle">Fique por dentro do Thunder</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card featured" data-aos="fade-up">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1629977009896-44a567a0543c" alt="News 1">
+                        <span class="news-badge">Destaque</span>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">15 de Março, 2025</span>
+                        <h3 class="news-title">Thunder Celebra 27 Anos de História</h3>
+                        <p class="news-excerpt">O Florida Thunder FC completa 27 anos neste 15 de março, reafirmando seu
+                            compromisso com o futebol de qualidade e a formação de atletas na região de Tampa.</p>
+                        <a href="#" class="news-link">Ler mais</a>
+                    </div>
+                </article>
+                <article class="news-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="news-image">
+                        <img src="/img/Comemorando.png" alt="News 2">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">10 de Março, 2025</span>
+                        <h3 class="news-title">Villalba é Destaque em Vitória</h3>
+                        <p class="news-excerpt">O centroavante paraguaio marcou dois gols na vitória por 3-1 sobre o
+                            Miami Coastline FC no último final de semana.</p>
+                        <a href="#" class="news-link">Ler mais</a>
+                    </div>
+                </article>
+                <article class="news-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="news-image">
+                        <img src="/img/torcedorees.png" alt="News 3">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">5 de Março, 2025</span>
+                        <h3 class="news-title">Nova Temporada, Novos Objetivos</h3>
+                        <p class="news-excerpt">Maurício Lacerda traça metas ambiciosas para a temporada 2025, com foco
+                            no acesso à MLS.</p>
+                        <a href="#" class="news-link">Ler mais</a>
+                    </div>
+                </article>
+                <article class="news-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1761225092045-698d1c4a9f43" alt="News 4">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">1 de Março, 2025</span>
+                        <h3 class="news-title">Jovens da Base em Destaque</h3>
+                        <p class="news-excerpt">Três jogadores da base foram promovidos para treinar com o elenco
+                            principal sob comando de Mike Houston.</p>
+                        <a href="#" class="news-link">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos aqui para você</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Storm Arena<br>Channelside District<br>Tampa, FL 33602</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>+1 (813) 555-8463</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@floridathunderfc.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 9h - 18h<br>Sábado: 10h - 14h</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="https://customer-assets.emergentagent.com/job_902a80e9-bac1-40e7-af0e-72ef9481d5e6/artifacts/xw2684ns_logo.png"
+                        alt="Florida Thunder FC" class="footer-logo">
+                    <p class="footer-slogan">"Rugimos na Tempestade"</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="https://www.instagram.com/floridathunderfc/" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#historia">História</a></li>
+                        <li><a href="#elenco">Elenco</a></li>
+                        <li><a href="#titulos">Títulos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Mais Informações</h4>
+                    <ul class="footer-links">
+                        <li><a href="#estadio">Estádio</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#noticias">Notícias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informações do Clube</h4>
+                    <p>Fundado: 15 de Março, 1998</p>
+                    <p>Tampa, Flórida, EUA</p>
+                    <p>Storm Arena - 22.500 lugares</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Florida Thunder FC. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
