@@ -39,7 +39,7 @@ https://floridathunderfc.netlify.app
 ```bash
 📦 Florida-Thunder-FC
  ┣ 📂 img
- ┃ ┣ 🎬 Videos e assets do site
+ ┃ ┣ 🎬 imagens
  ┣ 📄 index.html
  ┣ 📄 styles.css
  ┣ 📄 script.js
